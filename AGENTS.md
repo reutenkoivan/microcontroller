@@ -2,7 +2,7 @@
 
 Use `wiki/` for knowledge about microcontrollers and embedded development. Use `docs/` for the repository's structure, conventions, and workflows. Write wiki content in Ukrainian, preserving established technical names and acronyms. Cite primary sources for technical claims.
 
-Whenever you change `wiki/`, update the wiki index in `README.md` in the same change so the links and descriptions match the current pages.
+When you add, edit, move, or delete wiki material, follow the README contents sync rules in `docs/agents/domain.md` in the same change.
 
 ## Agent skills
 
