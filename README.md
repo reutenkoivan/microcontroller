@@ -55,6 +55,16 @@
     - [3.6.2. Відтворювана збірка й прошивання](wiki/development/rust/3.6-build-flash-debug.md#362-відтворювана-збірка-й-прошивання)
     - [3.6.3. Локалізація збою](wiki/development/rust/3.6-build-flash-debug.md#363-локалізація-збою)
     - [3.6.4. Межі для розробника](wiki/development/rust/3.6-build-flash-debug.md#364-межі-для-розробника)
+  - [3.7. Написання коду прошивки](wiki/development/rust/3.7-firmware-code.md#37-написання-коду-прошивки)
+    - [3.7.1. Відповідальність і контракт модуля](wiki/development/rust/3.7-firmware-code.md#371-відповідальність-і-контракт-модуля)
+    - [3.7.2. Типи, стан і пам’ять](wiki/development/rust/3.7-firmware-code.md#372-типи-стан-і-память)
+    - [3.7.3. Помилки й побічні ефекти](wiki/development/rust/3.7-firmware-code.md#373-помилки-й-побічні-ефекти)
+    - [3.7.4. Перевірки й межі на рев’ю](wiki/development/rust/3.7-firmware-code.md#374-перевірки-й-межі-на-ревю)
+  - [3.8. Структура репозиторію прошивки](wiki/development/rust/3.8-firmware-repository-structure.md#38-структура-репозиторію-прошивки)
+    - [3.8.1. Одна прошивка для однієї плати](wiki/development/rust/3.8-firmware-repository-structure.md#381-одна-прошивка-для-однієї-плати)
+    - [3.8.2. Коли виділяти модуль або крейт](wiki/development/rust/3.8-firmware-repository-structure.md#382-коли-виділяти-модуль-або-крейт)
+    - [3.8.3. Репозиторій із кількома пакетами](wiki/development/rust/3.8-firmware-repository-structure.md#383-репозиторій-із-кількома-пакетами)
+    - [3.8.4. Очікувані зміни та перевірки](wiki/development/rust/3.8-firmware-repository-structure.md#384-очікувані-зміни-та-перевірки)
 
 ## Структура репозиторію
 
