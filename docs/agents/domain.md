@@ -1,6 +1,7 @@
 # Domain documentation
 
 - Use `wiki/` for knowledge about microcontrollers and embedded development. Check related pages before adding a new one.
+- When documenting a tool, start with the problem it solves. Describe a typical solution and the conditions that affect when to use it.
 - Start each numbered wiki chapter's filename with the number in its main heading, as in `1-hardware-platforms.md`.
 - Use `docs/` for the repository's structure, conventions, and workflows.
 - Keep shared domain terminology in `wiki/GLOSSARY.md` when a glossary is needed. Use its terms consistently across wiki pages.
