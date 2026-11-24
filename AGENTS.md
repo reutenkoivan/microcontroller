@@ -8,11 +8,13 @@ When you add, edit, move, or delete wiki material, follow the README contents sy
 
 ### Engineering Compass
 
-This repository adopts the full `$engineering-compass` skill. Apply it automatically before planning or starting repository work. Use the approved revision's Context Map to select the rules that apply to the task and its consequences.
+Engineering Compass release: 0.3.0
 
-Engineering Compass release: 0.2.0
+Before planning or working in this repository, resolve `$engineering-compass` and read `plugin.json` in the active global package. If the versions match, apply `principles.md` and `context-map.md` from that package to the task and its consequences.
 
-Engineering Compass revision: f12829aaf11acec4731ef48eb7c898023ef47e96
+If the repository version is older, report both versions and ask the maintainer to invoke `$engineering-compass-update` here before continuing. If the repository version is newer, report both versions and use the installed `$engineering-compass-setup` procedure to audit local policy and verify the integration before recording the installed version.
+
+An explicit `$engineering-compass-update` can run before the versions match. If it expects Git revision fields, first refresh the clean global Git checkout on `release` with `git pull --ff-only`, then read Update from the refreshed package. Preserve this version-based entry format when applying Setup or Update.
 
 ### Issue tracker
 
