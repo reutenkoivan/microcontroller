@@ -66,6 +66,20 @@
     - [3.8.3. Репозиторій із кількома пакетами](wiki/development/rust/3.8-firmware-repository-structure.md#383-репозиторій-із-кількома-пакетами)
     - [3.8.4. Очікувані зміни та перевірки](wiki/development/rust/3.8-firmware-repository-structure.md#384-очікувані-зміни-та-перевірки)
 
+## Інструкції з налаштування розробки прошивок
+
+- [1. Спільний процес розробки й випуску прошивок](instructions/firmware-development.md)
+- [2. Налаштування за платформами](instructions/README.md)
+  - [2.1. ESP32](instructions/esp32.md)
+  - [2.2. STM32](instructions/stm32.md)
+  - [2.3. Raspberry Pi RP2040 та RP2350](instructions/raspberry-pi-rp2040-rp2350.md)
+  - [2.4. Nordic nRF](instructions/nordic-nrf.md)
+  - [2.5. AVR / ATmega](instructions/avr-atmega.md)
+  - [2.6. PIC / dsPIC](instructions/pic-dspic.md)
+  - [2.7. NXP MCX / i.MX RT](instructions/nxp-mcx-imx-rt.md)
+  - [2.8. TI MSP430 / SimpleLink](instructions/ti-msp430-simplelink.md)
+  - [2.9. WCH CH32](instructions/wch-ch32.md)
+
 ## Структура репозиторію
 
 - [`instructions/`](instructions/README.md) — практичні гайди з налаштування командної розробки й випуску прошивок для кожної апаратної платформи.
