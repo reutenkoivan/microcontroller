@@ -6,6 +6,14 @@ When you add, edit, move, or delete wiki material, follow the README contents sy
 
 ## Agent skills
 
+### Engineering Compass
+
+This repository adopts the full `$engineering-compass` skill. Apply it automatically before planning or starting repository work. Use the approved revision's Context Map to select the rules that apply to the task and its consequences.
+
+Engineering Compass release: 0.2.0
+
+Engineering Compass revision: f12829aaf11acec4731ef48eb7c898023ef47e96
+
 ### Issue tracker
 
 Discuss proposed documentation changes in the conversation. See `docs/agents/issue-tracker.md`.
